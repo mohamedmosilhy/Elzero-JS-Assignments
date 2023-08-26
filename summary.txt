@@ -1,0 +1,1491 @@
+#001 – Introduction and What Is JavaScript ?
+#002 – How To Study The Course ?
+#003 – Setting Up Environment And Tools
+#004 – Work With Chrome Developer Tools
+#005 – Where To Put The Code
+#006 – Comments And Bad Practice
+#007 – Output To Screen (window.alert(), console.log(), document.write())
+#008 – Console Methods And Styling And Web API (console.error(), console.table(), console.log("all things %cis good", "color:red;"))
+#009 – What Is ECMAScript ? standards that make the language be like the other programming languages so they all opey the same rules
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+#010 – Data Types And typeof Operator (String, number, object(array,null), boolean)
+#011 – Variables Introduction (var)
+#012 – Identifiers Name Conventions And Rules(camelcase=> userName)
+#013 – Var, Let, Const Compare
+/*
+  Var
+  - Redeclare (Yes)
+  - Access Before Declare (Undefined)
+  - Variable Scope Drama [Added To Window] ()
+  - Block Or Scope Function
+
+  Let
+  - Redeclare (No => Error)
+  - Access Before Declare (Error)
+  - Variable Scope Drama ()
+  - Block Or Scope Function
+
+  Const
+  - Redeclare (No => Error)
+  - Access Before Declare (Error)
+  - Variable Scope Drama ()
+  - Block Or Scope Function
+*/
+#014 – String Syntax And Character Escape Sequences(\, \n, \t)
+#015 – Concatenation (+)
+#016 – Template Literals (Template Strings)(`${variable}`)
+#017 – 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+#018 – Arithmetic Operators(*,-,+,/,%,++,--)
+#019 – Unary Plus And Negation Operators
+#020 – Type Coercion (Type casting)
+#021 – Assignment Operators
+#022 – Operators Challenges
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+#023 – Number
+#024 – Number Methods(toString(), toFixed(), parseInt(), parseFloat(), isInteger(), isNaN())
+#025 – Math Object(round(), ceil(), floor(), min(), max(), pow(), random(), trunc())
+#026 – Number Challenge()
+#027 – String Methods Part 1(charAt(), trim(), toUpperCase(), toLowerCase(),length)
+#028 – String Methods Part 2(indexOf(),lastIndexOF(),slice(), repeat(), split() => convert it to array)
+#029 – String Methods Part 3(subString(),substr(), includes(), startwith(), endwith())
+#030 – String Challenge
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+#031 – Comparison Operators(==, !=, ===)
+#032 – Logical Operators(!,||,&&)
+#033 – If Condition(if , else if, else)
+#034 – Nested If Condition
+#035 – Conditional ternary Operator(condition ? valueIfTrue : valueIfFalse)
+#036 – Nullish Coalescing Operator(|| => null,Undefined,any falsy value  , ?? => null, Undefined)
+#037 – If Condition Challenge
+#038 – Switch Statement
+#039 – Switch And If Condition Challenge
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+#040 – Array Big Introduction
+#041 – Using Length With Array
+#042 – Add And Remove From Array(unshift(), push(), shift(), pop())
+#043 – Searching Array(indexOf(), lastIndexOF(), includes)
+#044 – Sorting Array(sort(), reverse())
+#045 – Slicing Array(slice(), splice())
+#046 – Joining Arrays(concat(), join())
+#047 – Array Challenge
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+#048 – Loop For And Concept Of Loop
+#049 – Looping On Sequences
+#050 – Nested Loops And Training’s
+#051 – Loop Control – Continue, Break, Label
+#052 – Loop For Advanced Examples
+#053 – Practice – Add Products To Page
+#054 – Loop – While
+#055 – Loop – Do, While
+#056 – Loop Challenge
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+#057 – Function Intro And Basic Usage
+#058 – Function Advanced Examples
+#059 – Function Return Statement And Use Cases
+#060 – Function Default Parameters
+#061 – Function Rest Parameters
+#062 – Function Ultimate Practice
+#063 – Random Arguments Function Challenge
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+#064 – Anonymous Function And Practice
+#065 – Return Nested Function
+#066 – Arrow Function Syntax
+#067 – Scope – Global And Local
+#068 – Scope – Block
+#069 – Scope – Lexical (Static)
+#070 – Arrow Function Challenge
+JavaScript Function Currying
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+#071 – Higher Order Functions – Map ( function is used to transform each element of an array into a new array, applying a provided function to each element. )
+#072 – Higher Order Functions – Map Practice
+#073 – Higher Order Functions – Filter (method is a built-in function in JavaScript that allows you to create a new array by filtering elements from an existing array based on a specified condition.)
+#074 – Higher Order Functions – Filter Practice
+#075 – Higher Order Functions – Reduce ( method is a built-in function in JavaScript that allows you to reduce an array to a single value by applying a specified callback function to each element of the array.)
+#076 – Higher Order Functions – Reduce Practice
+#077 – Higher Order Functions – ForEach & Practice (.forEach() method doesn't create a new array; it simply performs an action on each element of the existing array.)
+#078 – Higher Order Functions – Challenge 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+#079 – Object – Introduction
+#080 – Dot Notation vs Bracket Notation
+#081 – Nested Object And Advanced Examples
+#082 – Create Object With New Keyword
+#083 – This Keyword
+#084 – Create Object With Create Method
+#085 – Create Object With Assign Method
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+#086 – What Is DOM ? And Select Elements
+/*
+  DOM
+  - What Is DOM
+  - DOM Selectors
+  --- Find Element By ID
+  --- Find Element By Tag Name
+  --- Find Element By Class Name
+  --- Find Element By CSS Selectors
+  --- Find Element By Collection
+  ------ title
+  ------ body
+  ------ images
+  ------ forms
+  ------ links
+*/
+
+#087 – Get, Set Elements And Attributes
+/*
+  DOM [Get / Set Elements Content And Attributes]
+  - innerHTML
+  - textContent
+  - Change Attributes Directly
+  - Change Attributes With Methods
+  --- getAttribute
+  --- setAttribute
+
+  Search
+  - innerText
+*/
+
+#088 – Check Attributes And Examples
+/*
+  DOM [Check Attributes]
+  - Element.attributes
+  - Element.hasAttribute
+  - Element.hasAttributes
+  - Element.removeAttribute
+*/
+
+#089 – Create and Append Elements
+/*
+  DOM [Create Elements]
+  - createElement
+  - createComment
+  - createTextNode
+  - createAttribute
+  - appendChild
+*/
+
+
+#090 – Product With Title And Description Practice
+#091 – Deal With Children
+/*
+  DOM [Deal With Childrens]
+  - children
+  - childNodes
+  - firstChild
+  - lastChild
+  - firstElementChild
+  - lastElementChild
+*/
+
+
+#092 – DOM Events
+/*
+  DOM [Events]
+  - Use Events On HTML
+  - Use Events On JS
+  --- onclick
+  --- oncontextmenu
+  --- onmouseenter
+  --- onmouseleave
+
+  --- onload
+  --- onscroll
+  --- onresize
+
+  --- onfocus
+  --- onblur
+  --- onsubmit
+*/
+#093 – Validate Form And Prevent Default
+
+/*
+  DOM [Events]
+  - Validate Form Practice
+  - Prevent Default
+*/
+
+
+#094 – Event Simulation – Click, Focus, Blur
+/*
+  DOM [Events Simulation]
+  - click
+  - focus
+  - blur
+*/
+
+
+#095 – ClassList Object And Methods
+/*
+  DOM [Class List]
+  - classList
+  --- length
+  --- contains
+  --- item(index)
+  --- add
+  --- remove
+  --- toggle
+*/
+
+
+#096 – CSS Styling And Stylesheet
+/*
+  DOM [Css]
+  - style
+  - cssText
+  - removeProperty()
+  - setProperty
+*/
+
+
+#097 – Before, After, Prepend, Append, Remove
+/*
+  DOM [Deal With Elements]
+  - before [Element || String]
+  - after [Element || String]
+  - append [Element || String]
+  - prepend [Element || String]
+  - remove
+*/
+
+#098 – DOM Traversing
+/*
+  DOM [Traversing]
+  - nextSibling
+  - previousSibling
+  - nextElementSibling
+  - previousElementSibling
+  - parentElement
+*/
+
+#099 – DOM Cloning
+/*
+  DOM [Cloning]
+  - cloneNode(Deep)
+*/
+
+#100 – AddEventListener
+/*
+  DOM [Add Event Listener]
+  - addEventListener
+  - Use Without On
+  - Attach Multiple Events
+  - Error Test
+
+  Search
+  - Capture & Bubbling JavaScript
+  - removeEventListener
+*/
+
+#101 – DOM Challenge
+In summary, use for...in when you need to iterate over object properties,
+and use for...of when you need to iterate over the values of an iterable data
+structure like an array.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+#102 – What Is BOM ?
+/*
+  BOM [Browser Object Model]
+  - Introduction
+  --- Window Object Is The Browser Window
+  --- Window Contain The Document Object
+  --- All Global Variables And Objects And Functions Are Members Of Window Object
+  ------ Test Document And Console
+  - What Can We Do With Window Object ?
+  --- Open Window
+  --- Close Window
+  --- Move Window
+  --- Resize Window
+  --- Print Document
+  --- Run Code After Period Of Time Once Or More
+  --- Fully Control The URL
+  --- Save Data Inside Browser To Use Later
+*/
+
+
+#103 – Alert, Confirm, Prompt
+/*
+  BOM [Browser Object Model]
+  - alert(Message) => Need No Response Only Ok Available
+  - confirm(Message) => Need Response And Return A Boolean
+  - prompt(Message, Default Message) => Collect Data
+*/
+
+
+#104 – setTimeout and clearTimeout
+/*
+  BOM [Browser Object Model]
+  - setTimeout(Function, Timeout, Additional Params)
+  - clearTimeout(Identifier)
+*/
+
+
+#105 – setInterval and clearInterval
+/*
+  BOM [Browser Object Model]
+  - setInterval(Function, Millseconds, Additional Params)
+  - clearInterval(Identifier)
+*/
+
+
+#106 – Window Location Object
+/*
+  BOM [Browser Object Model]
+  - location Object
+  --- href Get / Set [URL || Hash || File || Mail]
+  --- host
+  --- hash
+  --- protocol
+  --- reload()
+  --- replace()
+  --- assign()
+*/
+
+#107 – Window Open And Close
+ /*
+  BOM [Browser Object Model]
+  - open(URL [Opt], Window Name Or Target Attr [Opt], Win Features [Opt], History Replace [Opt])
+  - close()
+  - Window Features
+  --- left [Num]
+  --- top [Num]
+  --- width [Num]
+  --- height [Num]
+  --- menubar [yes || no]
+
+  Search
+  - Window.Open Window Features
+*/
+
+#108 – Window History Object
+/*
+  BOM [Browser Object Model]
+  - History API
+  --- Properties
+  ------ length
+  --- Methods
+  ------ back()
+  ------ forward()
+  ------ go(Delta) => Position In History
+
+  Search [For Advanced Knowledge]
+  - pushState() + replaceState()
+*/
+
+#109 – Scroll, ScrollTo, ScrollBy, Focus, Print, Stop
+/*
+  BOM [Browser Object Model]
+  - stop()
+  - print()
+  - focus()
+  - scrollTo(x, y || Options)
+  - scroll(x, y || Options)
+  - scrollBy(x, y || Options)
+*/
+
+#110 – Scroll To Top Using ScrollY
+/*
+  BOM [Browser Object Model]
+  - Practice => Scroll To Top
+  - scrollX [Alias => PageXOffset]
+  - scrollY [Alias => PageYOffset]
+*/
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+#111 – Local Storage
+/*
+  BOM [Browser Object Model]
+  Local Storage
+  - setItem
+  - getItem
+  - removeItem
+  - clear
+  - key
+
+  Info
+  - No Expiration Time
+  - HTTP And HTTPS
+  - Private Tab
+*/
+
+#112 – Local Storage Color App Practice
+#113 – Session Storage And Use Cases
+/*
+  BOM [Browser Object Model]
+  Session Storage
+  - setItem
+  - getItem
+  - removeItem
+  - clear
+  - key
+
+  Info
+  - New Tab = New Session
+  - Duplicate Tab = Copy Session
+  - New Tab With Same Url = New Session
+*/
+
+JSON.parse(jsonString): Converts a JSON string into a JavaScript object.
+JSON.stringify(jsonObject): Converts a JavaScript object into a JSON string.
+
+#114 – Bom Challenge
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#115 – Destructuring Arrays Part 1
+/*
+  Destructuring
+  " is a JavaScript expression that allows us to extract data from arrays,
+    objects, and maps and set them into new, distinct variables. "
+  - Destructuring Array
+*/
+
+#116 – Destructuring Arrays Part 2
+/*
+  Destructuring
+  - Destructuring Array Advanced Examples
+*/
+
+#117 – Destructuring Arrays Part 3 Swapping Variables
+/*
+  Destructuring
+  - Destructuring Array => Swapping Variables
+*/
+
+#118 – Destructuring Objects Part 1
+/*
+  Destructuring
+  - Destructuring Object
+*/
+
+#119 – Destructuring Objects Part 2
+/*
+  Destructuring
+  - Destructuring Object
+  --- Naming The Variables
+  --- Add New Property
+  --- Nested Object
+  --- Destructuring The Nested Object Only
+*/
+
+#120 – Destructuring Function parameters
+/*
+  Destructuring
+  - Destructuring Function Parameters
+*/
+
+#121 – Destructuring Mixed Content
+/*
+  Destructuring
+  - Destructuring Mixed Content
+*/
+
+#122 – Destructuring Challenge
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+#123 – Set Data Type And Methods
+/*
+  - Set Data Type
+  Syntax: new Set(Iterable)
+  -- Object To Store Unique Values
+  -- Cannot Access Elements By Index
+
+  Properties:
+  - size
+
+  Methods:
+  - add
+  - delete
+  - clear
+  - has
+*/
+
+#124 – Set vs WeakSet And Garbage Collector
+/*
+  - Set vs WeakSet
+  "
+    The WeakSet is weak,
+    meaning references to objects in a WeakSet are held weakly.
+    If no other references to an object stored in the WeakSet exist,
+    those objects can be garbage collected.
+  "
+  --
+  Set     => Can Store Any Data Values
+  WeakSet => Collection Of Objects Only
+  --
+  Set     => Have Size Property
+  WeakSet => Does Not Have Size Property
+  --
+  Set     => Have Keys, Values, Entries
+  WeakSet => Does Not Have clear, Keys, Values And Entries
+  --
+  Set     => Can Use forEach
+  WeakSet => Cannot Use forEach
+
+  Usage: Store objects and removes them once they become inaccessible
+*/
+
+#125 – Map Data Type vs Object
+/*
+  - Map Data Type
+  Syntax: new Map(Iterable With Key/Value)
+  -- Map vs Object
+  --
+  ------ Map => Does Not Contain Key By Default
+  ------ Object => Has Default Keys
+  --
+  ------ Map => Key Can Be Anything [Function, Object, Any Primitive Data Types]
+  ------ Object => String Or Symbol
+  --
+  ------ Map => Ordered By Insertion
+  ------ Object => Not 100% Till Now
+  --
+  ------ Map => Get Items By Size
+  ------ Object => Need To Do Manually
+  --
+  ------ Map => Can Be Directly Iterated
+  ------ Object => Not Directly And Need To Use Object.keys() And So On
+  --
+  ------ Map => Better Performance When Add Or Remove Data
+  ------ Object => Low Performance When Comparing To Map
+*/
+
+#126 – Map Methods
+/*
+  - Map Data Type
+  Methods
+  --- set
+  --- get
+  --- delete
+  --- clear
+  --- has
+
+  Properties
+  --- size
+*/
+
+#127 – Map vs WeakMap
+/*
+  - Map vs WeakMap
+  "
+    WeakMap Allows Garbage Collector To Do Its Task But Not Map.
+  "
+  --
+  Map     => Key Can Be Anything
+  WeakMap => Key Can Be Object Only
+  --
+*/
+
+#128 – Array.from Method
+/*
+  Array Methods
+  - Array.from(Iterable, MapFunc, This)
+  --- Variable
+  --- String Numbers
+  --- Set
+  --- Using The Map Function
+  --- Arrow Function
+  --- Shorten The Method + Use arguments
+*/
+
+#129 – Array.copyWithin Method
+/*
+  Array Methods
+  - Array.copyWithin(Target, Start => Optional, End => Optional)
+  "Copy Part Of An Array To Another Location in The Same Array"
+  -- Any Negative Value Will Count From The End
+  -- Target
+  ---- Index To Copy Part To
+  ---- If At Or Greater Than Array Length Nothing Will Be Copied
+  -- Start
+  ---- Index To Start Copying From
+  ---- If Ommited = Start From Index 0
+  -- End
+  ---- Index To End Copying From
+  ---- Not Including End
+  ---- If Ommited = Reach The End
+*/
+
+#130 – Array.some Method
+/*
+  Array Methods
+  - Array.some(CallbackFunc(Element, Index, Array), This Argument)
+  --- CallbackFunc => Function To Run On Every Element On The Given Array
+  ------ Element => The Current Element To Process
+  ------ Index => Index Of Current Element
+  ------ Array => The Current Array Working With
+  --- This Argument => Value To Use As This When Executing CallbackFunc
+  --
+  Using
+  - Check if Element Exists In Array
+  - Check If Number In Range
+*/
+
+#131 – Array.every Method
+/*
+  Array Methods
+  - Array.every(CallbackFunc(Element, Index, Array), This Argument)
+  --- CallbackFunc => Function To Run On Every Element On The Given Array
+  ------ Element => The Current Element To Process
+  ------ Index => Index Of Current Element
+  ------ Array => The Current Array Working With
+  --- This Argument => Value To Use As This When Executing CallbackFunc
+  --
+*/
+
+#132 – Spread Syntax And Use Cases
+/*
+  Spread Operator => ...Iterable
+  "Allow Iterable To Expand In Place"
+*/
+
+#133 – Map And Set Challenge
+/*
+  Map And Set + What You Learn => Challenge
+  Requirements
+  - You Cant Use Numbers Or True Or False
+  - Don't Use Array Indexes
+  - You Cant Use Loop
+  - You Cant Use Any Higher Order Function
+  - Only One Line Solution Inside Console
+  - If You Use Length => Then Only Time Only
+  Hints
+  - You Can Use * Operator Only In Calculation
+  - Set
+  - Spread Operator
+  - Math Object Methods
+*/
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+#134 – Intro And What Is Regular Expression
+  Regular Expression
+  - Email
+  - IP
+  - Phone
+  - URL
+*/
+
+#135 – Regular Expression – Modifiers
+/*
+  Regular Expression
+
+  Syntax
+  /pattern/modifier(s);
+  new RegExp("pattern", "modifier(s)")
+
+  Modifiers => Flags
+  i => case-insensitive
+  g => global
+  m => Multilines
+
+  Search Methods
+  - match(Pattern)
+
+  Match
+  -- Matches A String Against a Regular Expression Pattern
+  -- Returns An Array With The Matches
+  -- Returns null If No Match Is Found.
+*/
+
+#136 – Regular Expression – Ranges Part 1
+/*
+  Regular Expression
+
+  Ranges
+
+  - Part 1
+  (X|Y) => X Or Y
+  [0-9] => 0 To 9
+  [^0-9] => Any Character Not 0 To 9
+  Practice
+
+*/
+
+#137 – Regular Expression – Ranges Part 2
+/*
+  Regular Expression
+
+  Ranges
+
+  - Part 2
+  [a-z]
+  [^a-z]
+  [A-Z]
+  [^A-Z]
+  [abc]
+  [^abc]
+
+*/
+
+#138 – Regular Expression – Character Classes Part 1
+/*
+  Regular Expression
+  Character Classes
+  . => matches any character, except newline or other line terminators.
+  \w => matches word characters. [a-z, A-Z, 0-9 And Underscore]
+  \W => matches Non word characters
+  \d => matches digits from 0 to 9.
+  \D => matches non-digit characters.
+  \s => matches whitespace character.
+  \S => matches non whitespace character.
+*/
+
+#139 – Regular Expression – Character Classes Part 2
+/*
+  Regular Expression
+  Character Classes
+  \b => matches at the beginning or end of a word.
+  \B => matches NOT at the beginning/end of a word.
+
+  Test Method
+  pattern.test(input)
+*/
+
+#140 – Regular Expression – Quantifiers Part 1
+/*
+  Regular Expression
+
+  Quantifiers
+  n+    => One Or More
+  n*    => zero or more
+  n?    => zero or one
+*/
+
+#141 – Regular Expression – Quantifiers Part 2
+/*
+  Regular Expression
+
+  Quantifiers
+  n{x}   => Number of
+  n{x,y} => Range
+  n{x,}  => At Least x
+*/
+#142 – Regular Expression – Quantifiers Part 3
+/*
+  Regular Expression
+
+  Quantifiers
+  $  => End With Something
+  ^  => Start With Something
+  ?= => Followed By Something
+  ?! => Not Followed By Something
+*/
+#143 – Regular Expression – Replace With Pattern
+/*
+  Regular Expression
+
+  - replace
+  - replaceAll
+*/
+#144 – Regular Expression – Form Validation
+/*
+  Regular Expression
+  - Input Form Validation Practice
+*/
+#145 – Test Your Regular Expression
+#146 – Regular Expression – Challenge
+
+
+Certainly, I'd be happy to provide you with a comprehensive overview of regular expressions in JavaScript. Regular expressions (regex) can be quite powerful and versatile tools for pattern matching and manipulation in strings. Let's dive into the details step by step.
+
+### What is a Regular Expression?
+
+A regular expression (regex) is a sequence of characters that defines a search pattern. It is used for pattern matching within strings and can be used for tasks like validation, searching, and replacing.
+
+In JavaScript, you can create a regex using the `RegExp` constructor or by using regex literals (enclosed in forward slashes `/.../`). For example:
+
+```javascript
+const pattern = /abc/;
+const regex = new RegExp('abc');
+```
+
+### Basic Matching:
+
+Regex allows you to match specific characters, sequences, or patterns in strings. Here are some basic regex patterns and their meanings:
+
+- `abc`: Matches the sequence "abc".
+- `[a-z]`: Matches any lowercase letter.
+- `\d`: Matches a digit (0-9).
+- `\s`: Matches a whitespace character.
+- `.`: Matches any character except a newline.
+
+### Flags:
+
+Flags modify the behavior of regex matching. In JavaScript, common flags include:
+
+- `i`: Case-insensitive matching.
+- `g`: Global matching (find all occurrences).
+- `m`: Multi-line matching.
+
+Example:
+
+```javascript
+const pattern = /abc/gi;
+```
+
+### Special Characters:
+
+Regex uses special characters with special meanings:
+
+- `.`: Any character except newline.
+- `*`: Zero or more occurrences of the preceding character.
+- `+`: One or more occurrences of the preceding character.
+- `?`: Zero or one occurrence of the preceding character.
+- `\`: Escape character.
+- `[]`: Character class.
+- `()`: Grouping.
+
+Example:
+
+```javascript
+const pattern = /\d+/; // Matches one or more digits.
+```
+
+### Character Classes:
+
+Character classes allow you to match a set of characters:
+
+- `[abc]`: Matches any "a", "b", or "c".
+- `[^abc]`: Matches any character except "a", "b", or "c".
+- `[0-9]`: Matches any digit.
+
+### Quantifiers:
+
+Quantifiers define how many times a pattern should occur:
+
+- `{n}`: Exactly "n" occurrences.
+- `{n,}`: At least "n" occurrences.
+- `{n,m}`: Between "n" and "m" occurrences.
+
+Example:
+
+```javascript
+const pattern = /\d{2,4}/; // Matches 2 to 4 digits.
+```
+
+### Anchors:
+
+Anchors specify positions in the string:
+
+- `^`: Beginning of the string.
+- `$`: End of the string.
+- `\b`: Word boundary.
+
+Example:
+
+```javascript
+const pattern = /^\d+/; // Matches digits at the beginning of the string.
+```
+
+### Groups and Capture:
+
+Parentheses `()` are used for grouping and capture:
+
+- `(abc)`: Capturing group.
+- `(?:abc)`: Non-capturing group.
+
+Example:
+
+```javascript
+const pattern = /(a|b)c/; // Captures "a" or "b" followed by "c".
+```
+
+### Using Regex Methods:
+
+JavaScript provides several methods for working with regex:
+
+- `test()`: Tests if a string matches the pattern.
+- `match()`: Returns an array of matched substrings.
+- `search()`: Returns the index of the first match.
+- `replace()`: Replaces matches with a specified string.
+- `split()`: Splits a string into an array using a regex delimiter.
+
+Example:
+
+```javascript
+const text = "Hello, world!";
+const pattern = /world/;
+const result = pattern.test(text); // true
+```
+
+### Escaping Special Characters:
+
+To match special characters literally, you need to escape them using backslashes:
+
+```javascript
+const pattern = /\./; // Matches a literal period.
+```
+
+### Resources for Learning:
+
+- [MDN Regular Expressions Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions): Comprehensive guide on regex in JavaScript.
+- [regex101](https://regex101.com/): Online regex tester and debugger.
+- [Regular Expressions Cheat Sheet](https://cheatography.com/davechild/cheat-sheets/regular-expressions/): Quick reference for regex syntax.
+
+Remember that regular expressions can become complex as patterns get more intricate. Start with simple patterns and gradually build up your understanding and usage as needed.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+#147 – OOP Introduction
+#148 – Constructor Function Introduction
+function User(id, username, salary) {
+  this.i = id;
+  this.u = username;
+  this.s = salary + 1000;
+}
+
+#149 – Constructor Function New Syntax
+class User {
+  constructor(id, username, salary) {
+    this.i = id;
+    this.u = username;
+    this.s = salary + 1000;
+  }
+}
+
+#150 – Deal With Properties And Methods
+#151 – Update Properties And Built In Constructors
+
+#152 – Class Static Properties And Methods
+// Static Property
+static count = 0;
+
+// Static Methods
+static countMembers() {
+  return `${this.count} Members Created`;
+}
+
+#153 – Class Inheritance
+class Admin extends User {
+  constructor(id, username, permissions) {
+    super(id, username);
+    this.p = permissions;
+  }
+}
+
+#154 – Class Encapsulation
+/*
+  Encapsulation
+  - Class Fields Are Public By Default
+  - Guards The Data Against Illegal Access.
+  - Helps To Achieve The Target Without Revealing Its Complex Details.
+  - Will Reduce Human Errors.
+  - Make The App More Flexible And Manageable.
+  - Simplifies The App.
+*/
+#155 – Prototype Introduction
+/*
+  Prototype
+  - Introduction
+  - Prototypes are the mechanism by which JavaScript objects
+    inherit features from one another.
+*/
+
+#156 – Add To Prototype Chain
+/*
+  Prototype
+  - Add To Prototype Chain
+  - Extend Built In Constructors Features
+*/
+#157 – Object Meta Data And Descriptor Part 1
+/*
+  Object Meta Data And Descriptor
+  - writable
+  - enumerable
+  - configurable [Cannot Delete Or Reconfigure]
+*/
+#158 – Object Meta Data And Descriptor Part 2
+/*
+  Object Meta Data And Descriptor
+  - Define Multiple Properties
+  - Check Descriptors
+*/
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+#159 – Date And Time Introduction
+/*
+  Date And Time
+  - Date Constructor
+
+  Static Methods
+  - Date.now()
+
+  - To Track Time You Need Starting Point
+  - Epoch Time Or Unix Time In Computer Science Is The Number of Seconds Since January 1, 1970.
+  - Why 1970 [829 Days To 136 Years]
+
+  Search For
+  - Year 2038 Problem in Computer Science.
+*/
+
+#160 – Get Date And Time
+/*
+  Date And Time
+  - getTime() => Number Of Milliseconds
+  - getDate() => Day Of The Month
+  - getFullYear()
+  - getMonth() => Zero Based
+  - getDay() => Day Of The Week
+  - getHours()
+  - getMinutes()
+  - getSeconds()
+*/
+
+#161 – Set Date And Time
+
+/*
+  Date And Time
+  - setTime(Milliseconds)
+  - setDate() => Day Of The Month [Negative And Positive]
+  - setFullYear(year, month => Optional [0-11], day => Optional [1-31])
+  - setMonth(Month [0-11], Day => Optional [1-31]) [Negative And Positive]
+  - setHours(Hours [0-23], Minutes => Optional [0-59], Seconds => Optional [0-59], MS => Optional [0-999])
+  - setMinutes(Minutes [0-59], Seconds => Optional [0-59], MS => Optional [0-999])
+  - setSeconds(Seconds => [0-59], MS => Optional [0-999])
+*/
+
+#162 – Formatting Date And Time
+/*
+  Date And Time
+
+  new Date(timestamp)
+  new Date(Date String)
+  new Date(Numeric Values)
+
+  Format
+  - "Oct 25 1982"
+  - "10/25/1982"
+  - "1982-10-25" => ISO International Standard
+  - "1982 10"
+  - "1982"
+  - "82"
+  - 1982, 9, 25, 2, 10, 0
+  - 1982, 9, 25
+  - "1982-10-25T06:10:00Z"
+
+  Date.parse("String") // Read Date From A String
+*/
+
+#163 – Tracking Operations Time
+/*
+  Date And Time
+  - Track Operations Time
+
+  Search
+  - performance.now()
+  - performance.mark()
+*/
+
+#164 – Generator Function Introduction
+/*
+  Generators
+  - Generator Function Run Its Code When Required.
+  - Generator Function Return Special Object [Generator Object]
+  - Generators Are Iterable
+*/
+
+#165 – Delegate Generator Function
+/*
+  Generators
+  - Delegate Generator
+*/
+
+#166 – Generate Infinite Numbers
+/*
+  Generators
+  - Generate Infinite Numbers
+  - Use Return Inside Generators
+*/
+
+#167 – Module Import And Export
+/*
+  Modules
+  - Import And Export
+*/
+
+#168 – Named vs Default Export And Import All
+/*
+  Modules
+  - Export Alias
+  - Named Export
+  - Default Export
+  - Import All
+*/
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+#169 – What Is JSON
+/*
+  What Is JSON ?
+  - JavaScript Object Notation
+  - Format For Sharing Data Between Server And Client
+  - JSON Derived From JavaScript
+  - Alternative To XML
+  - File Extension Is .json
+
+  Why JSON ?
+  - Easy To Use And Read
+  - Used By Most Programming Languages And Its Frameworks
+  - You Can Convert JSON Object To JS Object And Vice Versa
+
+  JSON vs XML
+  ===================================================
+  = Text Based Format      = Markup Language        =
+  = Lightweight            = Heavier                =
+  = Does Not Use Tags      = Using Tags             =
+  = Shorter                = Not Short              =
+  = Can Use Arrays         = Cannot Use Arrays      =
+  = Not Support Comments   = Support Comments       =
+  ===================================================
+*/
+#170 – JSON Syntax And Compare With JS Object
+/*
+  JSON Syntax
+  - Data Added Inside Curly Braces {  }
+  - Data Added With Key : Value
+  - Key Should Be String Wrapped In Double Quotes
+  - Data Separated By Comma
+  - Square Brackets [] For Arrays
+  - Curly Braces {} For Objects
+
+  Available Data Types
+  - String
+  - Number
+  - Object
+  - Array
+  - Boolean Values
+  - null
+*/
+#171 – What Is API
+/*
+  JSON
+  - API Overview
+  - Tools To Test API
+  - Preview Github API
+  https://myjson.dit.upm.es/
+*/
+
+#172 – Parse And Stringify
+/*
+  JSON
+  - JSON.parse => Convert Text Data To JS Object
+  - JSON.stringify => Convert JS Object To JSON
+*/
+
+#173 – Asynchronous vs Synchronous Programming
+/*
+  To Understand Ajax, Fetch, Promises
+
+  Asynchronous vs Synchronous Programming
+  - Meaning
+
+  Synchronous
+  - Operations Runs in Sequence
+  - Each Operation Must Wait For The Previous One To Complete
+  - Story From Real Life
+
+  Asynchronous
+  - Operations Runs In Parallel
+  - This Means That An Operation Can Occur while Another One Is Still Being Processed
+  - Story From Real Life
+
+  - Facebook As Example
+  - Simulation
+
+  Search
+  - JavaScript Is A Single-Threaded
+  - Multi Threaded Languages
+*/
+
+#174 – Call Stack And Web API
+/*
+  To Understand Ajax, Fetch, Promises
+
+  Call Stack || Stack Trace
+  -- JavaScript Engine Uses A Call Stack To Manage Execution Contexts
+  -- Mechanism To Make The Interpreter Track Your Calls
+  -- When Function Called It Added To The Stack
+  -- When Function Executed It Removed From The Stack
+  -- After Function Is Finished Executing The Interpreter Continue From The Last Point
+  -- Work Using LIFO Principle => Last In First Out
+  -- Code Execution Is Synchronous.
+  -- Call Stack Detect Web API Methods And Leave It To The Browser To Handle It
+
+  Web API
+  -- Methods Available From The Environment => Browser
+*/
+#175 – Event Loop And Callback Queue
+/*
+  To Understand Ajax, Fetch, Promises
+
+  Event Loop + Callback Queue
+
+  Story
+  - JavaScript Is A Single Threaded Language "All Operations Executed in Single Thread"
+  - Call Stack Track All Calls
+  - Every Function Is Done Its Poped Out
+  - When You Call Asynchronous Function It Sent To Browser API
+  - Asynchronous Function Like Settimeout Start Its Own Thread
+  - Browser API Act As A Second Thread
+  - API Finish Waiting And Send Back The Function For Processing
+  - Browser API Add The Callback To Callback Queue
+  - Event Loop Wait For Call Stack To Be Empty
+  - Event Loop Get Callback From Callback Queue And Add It To Call Stack
+  - Callback Queue Follow FIFO "First In First Out" Rule
+*/
+
+#176 – What Is AJAX And Network Informations
+/*
+  AJAX
+  - Asynchronous JavaScript And XML
+  - Approach To Use Many Technologies Together [HTML, CSS, Js, DOM]
+  - It Use "XMLHttpRequest" Object To Interact With The Server
+  - You Can Fetch Data Or Send Data Without Page Refresh
+  - Examples
+  --- Youtube Studio
+  --- Google Drive
+  --- Upload Article Photo
+  --- Form Check Name
+
+  Test new XMLHttpRequest();
+  Request And Response
+  Status Code
+*/
+
+#177 – Request and Response From Real API
+/*
+  Ajax
+  - Ready State => Status Of The Request
+  [0] Request Not Initialized
+  [1] Server Connection Established
+  [2] Request Received
+  [3] Processing Request
+  [4] Request Is Finished And Response Is Ready
+  - Status
+  [200] Response Is Successful
+  [404] Not Found
+*/
+#178 – Loop On Data
+/*
+  Ajax
+  Loop On Data
+
+  Search
+  - Cross Origin API [CORS]
+  - API Authentication
+*/
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+#179 – Callback Hell Or Pyramid Of Doom
+/*
+  To Understand Ajax, Fetch, Promises
+
+  Pyramid Of Doom || Callback Hell
+
+  - What Is Callback
+  - Callback Hell Example
+
+  What Is Callback
+  - A Function That Is Passed Into Another One As An Argument To Be Executed Later
+  - Function To Handle Photos
+  --- [1] Download Photo From URL
+  --- [2] Resize Photo
+  --- [3] Add Logo To The Photo
+  --- [4] Show The Photo In Website
+*/
+#180 – Promise Intro And Syntax
+/*
+  Promise Intro And Syntax
+  - Promise In JavaScript Is Like Promise In Real Life
+  - Promise Is Something That Will Happen In The Future
+  - Promise Avoid Callback Hell
+  - Promise Is The Object That Represent The Status Of An Asynchronous Operation And Its Resulting Value
+
+  - Promise Status
+  --- Pending: Initial State
+  --- Fulfilled: Completed Successfully
+  --- Rejected: Failed
+
+  Story
+  - Once A Promise Has Been Called, It Will Start In A Pending State
+  - The Created Promise Will Eventually End In A Resolved State Or In A Rejected State
+  - Calling The Callback Functions (Passed To Then And Catch) Upon Finishing.
+
+  - Then
+  --- Takes 2 Optional Arguments [Callback For Success Or Failure]
+*/
+#181 – Promise – Then, Catch And Finally
+
+/*
+  Promise Training
+
+  We Will Go To The Meeting, Promise Me That We Will Find The 4 Employees
+  .then(We Will Choose Two People)
+  .then(We Will Test Them Then Get One Of Them)
+  .catch(No One Came)
+
+  Then    => Promise Is Successfull Use The Resolved Data
+  Catch   => Promise Is Failed, Catch The Error
+  Finally => Promise Successfull Or Failed Finally Do Something
+*/
+
+#182 – Promise And XHR
+/*
+  Promise And XHR
+*/
+
+const getData = (apiLink) => {
+  return new Promise((resolve, reject) => {
+    let myRequest = new XMLHttpRequest();
+    myRequest.onload = function () {
+      if (this.readyState === 4 && this.status === 200) {
+        resolve(JSON.parse(this.responseText));
+      } else {
+        reject(Error("No Data Found"));
+      }
+    };
+
+    myRequest.open("GET", apiLink);
+    myRequest.send();
+  });
+};
+
+getData("https://api.github.com/users/elzerowebschool/repos")
+  .then((result) => {
+    result.length = 10;
+    return result;
+  })
+  .then((result) => console.log(result[0].name))
+  .catch((rej) => console.log(rej));
+
+
+#183 – Fetch API
+
+/*
+  Fetch API
+  - Return A Representation Of the Entire HTTP Response
+*/
+
+fetch("https://api.github.com/users/elzerowebschool/repos")
+  .then((result) => {
+    console.log(result);
+    let myData = result.json();
+    console.log(myData);
+    return myData;
+  })
+  .then((full) => {
+    full.length = 10;
+    return full;
+  })
+  .then((ten) => {
+    console.log(ten[0].name);
+  });
+
+#184 – Promise – All, All Settled And Race
+#185 – Async And Trainings
+/*
+  Async
+  - Async Before Function Mean This Function Return A Promise
+  - Async And Await Help In Creating Asynchronous Promise Behavior With Cleaner Style
+*/
+#186 – Await And Trainings
+/*
+  Await
+  - Await Works Only Inside Asnyc Functions
+  - Await Make JavaScript Wait For The Promise Result
+  - Await Is More Elegant Syntax Of Getting Promise Result
+*/
+#187 – Try, Catch, Finally With Fetch
+/*
+  Async & Await With Try, Catch, Finally
+*/
+#188 – The End And Advices
+/*
+  The End
+  - Other Information => Practice + Tutorials
+  - Problem Solving
+  - Search In Lessons
+  - Advanced Books
+*/

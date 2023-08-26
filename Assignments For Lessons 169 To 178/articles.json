@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Title 1",
+    "writer": "mosilhy",
+    "category": "football",
+    "content": "i love football"
+  },
+  {
+    "id": 2,
+    "title": "Title 2",
+    "writer": "salah",
+    "category": "politics",
+    "content": "england attacks egypt"
+  },
+  {
+    "id": 3,
+    "title": "Title 3",
+    "writer": "amal",
+    "category": "cooking",
+    "content": "i love rice"
+  },
+  {
+    "id": 4,
+    "title": "Title 4",
+    "writer": "sayed",
+    "category": "medicine",
+    "content": "i take ansulin"
+  },
+  {
+    "id": 5,
+    "title": "Title 5",
+    "writer": "ahmed",
+    "category": "tennis",
+    "content": "i love tennis"
+  }
+]
